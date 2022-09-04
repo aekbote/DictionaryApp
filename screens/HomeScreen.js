@@ -74,10 +74,11 @@ export default class HomeScreen extends Component{
                  definition : ""
           
                     })
-               }}   
+               }}  
+                value={this.state.text} 
              /> 
 
-             value={this.state.text} 
+         
 
          <TouchableOpacity
          style={styles.searchButton}
